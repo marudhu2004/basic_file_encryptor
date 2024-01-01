@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args){
-        Encryptor encryptor = new Encryptor();
-        System.out.println("hello!");
+        Encryptor encryptor = new Encryptor("enc.txt", "dec.txt");
+        encryptor.encrypt(10, true);
     }
+
 }
